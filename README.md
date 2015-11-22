@@ -1,4 +1,4 @@
-# Weather polling led
+# Weather polling LED
 
 So I wanted to build a small thing that tells me whether I should bring rain clothes or not. And of course learn some python and raspberry pi.
 

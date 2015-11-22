@@ -1,5 +1,5 @@
 The following should be in the sudo crontab -e
-Then the weather script will be run every 4th hour.
+Then the weather script will be run every 30 minutes hour.
 
 */30 * * * * python /home/pi/weather.py
 
