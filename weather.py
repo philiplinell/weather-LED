@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # This script gets weather data from smhi and turns on a LED
 # if the forecast expects any rainfall/snowfall within the next 8 hours.
-import requests, json
+import requests, json, time
 from pprint import pprint
 from datetime import datetime
 import RPi.GPIO as GPIO
@@ -73,6 +73,12 @@ def blinkblink():
     time.sleep(0.5)
     red_led_on(False)
     time.sleep(0.5)
+    red_led_on(True)
+    green_led_on(True)
+    time.sleep(0.3)
+    red_led_on(False)
+    green_led_on(False)
+    time.sleep(1)
 
 # ====================== End of Functions =====================
 
