@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Weather polling led
 
 So I wanted to build a small thing that tells me whether I should bring rain clothes or not. And of course learn some python and raspberry pi.
@@ -14,4 +13,3 @@ After the weather data is collected it does some blinky stuff to display that ne
 =======
 # weather-LED
 Raspberry pi project that informs me whether I should prepare for bad weather or not.
->>>>>>> 5dba804dfc071fc4b008123ee124dfa8c171b502
