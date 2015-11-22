@@ -49,6 +49,22 @@ red_led_on(False)
 
 time.sleep(0.5)
 
+green_led_on(True)
+    
+time.sleep(0.5)
+
+red_led_on(True)
+    
+time.sleep(0.5)
+
+green_led_on(False)
+
+time.sleep(0.5)
+
+red_led_on(False)
+
+time.sleep(0.5)
+
 GPIO.cleanup()
 
 

@@ -50,7 +50,33 @@ def red_led_on( status ):
 def green_led_on( status ):
     GPIO.output(green_gpio, status)
 
+def blinkblink():
+    green_led_on(True)
+    red_led_on(True)
+    time.sleep(1)
+    green_led_on(False)
+    red_led_on(False)
+    time.sleep(0.5)
+    green_led_on(True)
+    time.sleep(0.5)
+    red_led_on(True)
+    time.sleep(0.5)
+    green_led_on(False)
+    time.sleep(0.5)
+    red_led_on(False)
+    time.sleep(0.5)
+    green_led_on(True)
+    time.sleep(0.5)
+    red_led_on(True)
+    time.sleep(0.5)
+    green_led_on(False)
+    time.sleep(0.5)
+    red_led_on(False)
+    time.sleep(0.5)
+
 # ====================== End of Functions =====================
+
+blinkblink()
 
 rain_or_snow = any_downfall(r)
 if rain_or_snow:
